@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "uk-taxi-phv-mcp": {
+      "type": "http",
+      "url": "https://taxi.regevidencehub.com/mcp"
+    }
+  }
+}
