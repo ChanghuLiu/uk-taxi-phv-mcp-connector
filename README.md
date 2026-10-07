@@ -23,3 +23,14 @@ Agent-native paid MCP actions use x402 where payment is required. Human-facing p
 ## Publisher
 
 RegEvidenceHub — https://www.regevidencehub.com/
+
+
+## Gemini CLI
+
+Install this connector as a Gemini CLI extension:
+
+```sh
+gemini extensions install https://github.com/ChanghuLiu/uk-taxi-phv-mcp-connector
+```
+
+The Gemini CLI extension connects to the hosted Streamable HTTP MCP endpoint above. Gemini CLI does not automatically sign x402 payments; paid tools may return a payment-required response and need a separate x402-capable payment workflow. Do not put wallet private keys in this extension.

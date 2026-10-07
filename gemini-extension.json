@@ -1,0 +1,10 @@
+{
+  "name": "uk-taxi-phv-mcp-connector",
+  "version": "1.0.0",
+  "description": "Evidence-linked taxi and private-hire licensing preflight and local-authority comparison for England.",
+  "mcpServers": {
+    "uk-taxi-phv-mcp": {
+      "httpUrl": "https://taxi.regevidencehub.com/mcp"
+    }
+  }
+}
